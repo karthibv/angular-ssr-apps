@@ -1,30 +1,27 @@
-# Angular Server Side Rendering (SSR) 
+# Ssr1
 
-Server-side rendering (SSR) is a process that involves rendering pages on the server, resulting in initial HTML content which contains initial page state. Once the HTML content is delivered to a browser, Angular initializes the application and utilizes the data contained within the HTML.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
-## Why use SSR?
-The main advantages of SSR as compared to client-side rendering (CSR) are:
+## Development server
 
-**Improved performance :** SSR can improve the performance of web applications by delivering fully rendered HTML to the client, which can be parsed and displayed even before the application JavaScript is downloaded. This can be especially beneficial for users on low-bandwidth connections or mobile devices.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-**Improved Core Web Vitals:** SSR results in performance improvements that can be measured using Core Web Vitals (CWV) statistics, such as reduced First Contentful Paint (FCP) and Largest Contentful Paint (LCP), as well as Cumulative Layout Shift (CLS).
+## Code scaffolding
 
-**Better SEO:** SSR can improve the search engine optimization (SEO) of web applications by making it easier for search engines to crawl and index the content of the application.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Build
 
-## How to build SSR Application?
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-**Create new app with SSR**
+## Running unit tests
 
-```
-ng new <AppName> --ssr
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Add SSR to existing apps
+## Running end-to-end tests
 
-```
-ng add @angular/ssr
-```
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Further help
 
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
